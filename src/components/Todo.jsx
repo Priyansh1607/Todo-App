@@ -55,7 +55,7 @@ const Todo = () => {
     day: "numeric", // "25"
   });
   return (
-    <div className="w-5/6 place-self-center bg-white/60 rounded-lg border border-gray-300/30 backdrop-blur-xl backdrop-saturate-[1.61] min-h-auto lg:w-2/3">
+    <div className="w-5/6 place-self-center my-5 bg-white/60 rounded-lg border border-gray-300/30 backdrop-blur-xl backdrop-saturate-[1.61] min-h-auto lg:w-2/3">
       {/* {-----title----}       */}
       <div className="flex flex-col gap-2 justify-center items-center mt-3 lg:flex-row lg:items-center lg:justify-between lg:px-8">
         <div className="flex items-center gap-3 ">

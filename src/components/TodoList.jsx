@@ -9,7 +9,7 @@ const TodoList = ({ text, id, completed, Delete, toggle }) => {
         onClick={() => {
           toggle(id);
         }}
-        className="flex items-center flex-wrap gap-2"
+        className="flex items-center gap-2"
       >
         <img
           className="w-4 lg:w-6"
