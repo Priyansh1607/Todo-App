@@ -54,15 +54,16 @@ const Todo = () => {
     month: "short", // "Jan"
     day: "numeric", // "25"
   });
+
   return (
-    <div className="w-5/6 place-self-center my-5 bg-white/60 rounded-lg border border-gray-300/30 backdrop-blur-xl backdrop-saturate-[1.61] min-h-auto lg:w-2/3">
+    <div className="w-5/6 place-self-center my-5 bg-white/40 backdrop-blur-sm  rounded-lg border border-gray-300/30  min-h-auto lg:w-2/3">
       {/* {-----title----}       */}
       <div className="flex flex-col gap-2 justify-center items-center mt-3 lg:flex-row lg:items-center lg:justify-between lg:px-8">
         <div className="flex items-center gap-3 ">
           <img className="w-6 lg:w-7" src={todo} alt="" />
           <h1 className="font-bold text-3xl uppercase lg:text-4xl">Todo-App</h1>
         </div>
-        <p className="text-sm italic lg:text-base">{currentDate}</p>
+        <p className="text-sm italic lg:text-lg">{currentDate}</p>
       </div>
 
       {/* {-----input----}       */}
@@ -77,9 +78,9 @@ const Todo = () => {
         />
         <button
           onClick={Add}
-          className="lg:px-12 px-7 bg-gradient-to-r from-[#227e22] to-[#63a211] text-white rounded-full uppercase tracking-wider cursor-pointer font-semibold"
+          className="lg:px-12 px-7 bg-gradient-to-r from-[#227e22] to-[#63a211] text-white rounded-full uppercase tracking-wider cursor-pointer font-semibold text-lg"
         >
-          Add
+          + Add
         </button>
       </div>
 
